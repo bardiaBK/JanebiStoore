@@ -39,3 +39,9 @@
 #a2{
     color:rgb(12, 158, 255);
 }
+
+@media (max-width:1000px){
+    .Pay-Text-h1{
+        font-size:20px;
+    }
+}
