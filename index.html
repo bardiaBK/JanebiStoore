@@ -45,6 +45,19 @@
         <button class="nxt-btn" id="nxt-btn"><img src="arrow.png" alt=""></button>
     </div> -->
 
+    <tabele id="countdown">
+        <tr id="countdown-timer">
+            <td><span id="days" class="timer">x</span></td>
+            <td><span id="hours" class="timer">x</span></td>
+            <td><span id="minutes" class="timer">x</span></td>
+            <td><span id="secounds" class="timer">x</span></td>
+        </tr>
+    </tabele>
+
+    <div class="timer-2">
+        <h1 class="timer-h1">!فرصت کمه</h1>
+    </div>
+
     <div class="products-all">
         <div class="Pro-item">
             <div class="Text-Before">
@@ -129,6 +142,54 @@
             <a href="https://t.me/janebi_stoore" target="_blank" class="telegram-link"><i class='bx bxl-telegram'></i></a>
         </div>
     </div>
-    <!-- <script src="script.js"></script> -->
+    <script>
+        const storeOpening = new Date('oct 27, 2024 00:00:00');
+
+        setCountdown(storeOpening);
+
+        setInterval(function() {
+            setCountdown(storeOpening);
+        },1000)
+
+        function setCountdown(countingDownTime) {
+
+            let now = new Date();
+
+            let timeRemaining = countingDownTime - now;
+
+            console.log(timeRemaining);
+
+            let secounds = Math.floor(timeRemaining / 1000);
+
+            let minutes = Math.floor(timeRemaining / (1000*60));
+
+            let hours = Math.floor(timeRemaining / (1000*60*60));
+
+            let days = Math.floor(timeRemaining / (1000*60*60*24));
+
+            console.log(days, hours, minutes, secounds);
+
+            let daysToDisplay = days;
+
+            let hoursToDisplay = hours - (days * 24);
+
+            let minutesToDisplay = minutes - (hours * 60);
+
+            let secoundsToDisplay = secounds - (minutes * 60);
+
+            console.log(daysToDisplay, hoursToDisplay, minutesToDisplay, secoundsToDisplay);
+
+            const daysE1 = document.getElementById('days');
+            const hoursE1 = document.getElementById('hours');
+            const minutesE1 = document.getElementById('minutes');
+            const secoundsE1 = document.getElementById('secounds');
+
+            daysE1.textContent = daysToDisplay;
+            hoursE1.textContent = hoursToDisplay;
+            minutesE1.textContent = minutesToDisplay;
+            secoundsE1.textContent = secoundsToDisplay;
+
+        }
+    </script>
 </body>
 </html>
