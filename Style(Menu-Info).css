@@ -1,0 +1,29 @@
+.Menu-all{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:30px;
+}
+
+.Menu-Text{
+    display:grid;
+    justify-content:space-around;
+    align-items:center;
+    background-color:white;
+    width:200px;
+    border-radius:15px;
+}
+
+@media (max-width:1000px){
+
+.Menu-all{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    justify-content:center;
+    align-items:center;
+}
+
+.Menu-Text{
+    width:180px;
+}
+}
