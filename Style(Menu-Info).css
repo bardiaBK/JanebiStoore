@@ -1,8 +1,16 @@
-.Menu-all{
+.Menu-all-a{
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
+    align-items:center;
+}
+
+.Menu-all{
+    display:grid;
+    justify-content:center;
     align-items:center;
     margin-top:30px;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px 50px;
 }
 
 .Menu-Text{
@@ -21,6 +29,7 @@
     grid-template-columns:repeat(2, 1fr);
     justify-content:center;
     align-items:center;
+    gap:20px;
 }
 
 .Menu-Text{
