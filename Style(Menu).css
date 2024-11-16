@@ -44,8 +44,32 @@
     letter-spacing:2px;
 }
 
+.da-img{
+    width:200px;
+    border-radius:15px;
+    border:3px solid rgb(56, 209, 243);
+    transition:0.5s;
+}
+
+.da-menu{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:30px;
+}
+
+.da-img:hover{
+    box-shadow:0 0.5rem 0.5rem rgb(0, 0, 0);
+    transition:0.5s;
+}
+
 @media (max-width:1000px){
     .Name-da{
+        flex-direction:column;
+        height:100%;
+    }
+
+    .da-menu{
         flex-direction:column;
         height:100%;
     }
