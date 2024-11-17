@@ -59,7 +59,7 @@
 }
 
 .da-img:hover{
-    box-shadow:0 0.5rem 0.5rem rgb(0, 0, 0);
+    box-shadow:0 0.5rem 0.5rem Blue;
     transition:0.5s;
 }
 
