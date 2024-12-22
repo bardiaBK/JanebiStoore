@@ -6,7 +6,7 @@ body{
     /* background-image:url(Background-Yalda.jpg); */
     /* margin:0;
     padding:0; */
-    background-color:rgb(56, 46, 46);
+    background-color:rgb(238, 238, 238);
 }
 
 .up{
@@ -22,7 +22,7 @@ body{
 }
 
 .logo-name{
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 .navbar{
@@ -432,7 +432,7 @@ body{
 .timer{
     border:3px solid rgb(255, 255, 255);
     width:80px;
-    background-color:rgb(255, 92, 92);
+    background-color:rgb(6, 238, 230);
     color:rgb(0, 0, 0);
     border-radius:15px;
     box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
@@ -446,7 +446,7 @@ body{
 
 .timer-h1{
     color:black;
-    background:linear-gradient(#ff0000, #e5e5e5);
+    background:linear-gradient(#00aeff, #e5e5e5);
     border:3px solid black;
     border-radius:15px;
     width:200px;
@@ -463,10 +463,11 @@ body{
 
 .Name-Pro{
     margin-top:50px;
-    background-color:orange;
+    background-color:rgb(0, 174, 255);
     border-radius:15px;
     white-space:nowrap;
     border:3px solid black;
+    margin-bottom:80px;
 }
 
 .Name-Pro2{
@@ -490,12 +491,12 @@ body{
 }
 
 .Name-a{
-    color:black;
+    color:rgb(255, 255, 255);
     text-decoration:none;
 }
 
 .Name-h1{
-    background-color:rgb(255, 123, 0);
+    background-color:rgb(48, 94, 245);
     width:150px;
     text-align:center;
     border-radius:15px;
@@ -504,7 +505,7 @@ body{
 }
 
 .Name-h1:hover{
-    background-color:rgb(255, 172, 95);
+    background-color:rgb(7, 192, 254);
     transition:0.5s;
 }
 
@@ -680,6 +681,7 @@ body{
         border-radius:15px;
     }
 }
+
 
 
 
