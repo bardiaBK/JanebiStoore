@@ -29,6 +29,12 @@
     margin-top:70px;
 }
 
+.img-info-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
 /* .right-info{
     background:linear-gradient(#1fd3d3, #000000e7);
     width:350px;
@@ -162,6 +168,11 @@
     justify-content:space-around;
 }
 
+.Mojoodi{
+    width:300px;
+    border-radius:5px;
+}
+
 @media (max-width:1000px){
     .things{
         display:none;
@@ -269,5 +280,12 @@
         width:80px;
         border:2px solid black;
         border-radius:15px;
+    }
+
+    .img-info-2-phone{
+        display:grid;
+        justify-content:center;
+        align-items:center;
+        margin-top:50px;
     }
 }
