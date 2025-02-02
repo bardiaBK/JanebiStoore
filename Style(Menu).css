@@ -51,11 +51,27 @@
     transition:0.5s;
 }
 
+/* .da-menu-3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.da-menu-2{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px 50px;
+} */
+
 .da-menu{
     display:flex;
     justify-content:space-around;
     align-items:center;
-    margin-top:30px;
+    margin-top:50px;
+    border-radius:15px;
 }
 
 .da-img:hover{
