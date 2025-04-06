@@ -1,0 +1,38 @@
+.B-Plane{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Menu-all{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px 50px;
+}
+
+.Menu-Text{
+    display:grid;
+    justify-content:space-around;
+    align-items:center;
+    background-color:white;
+    width:200px;
+    border-radius:15px;
+}
+
+@media (max-width:1000px){
+
+.Menu-all{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.Menu-Text{
+    width:180px;
+}
+}

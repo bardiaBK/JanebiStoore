@@ -1,0 +1,84 @@
+.Name-da{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    background-color:rgb(240, 180, 124);
+    margin-top:150px;
+    height:300px;
+    border:5px solid rgb(255, 189, 7);
+    border-radius:20px;
+    box-shadow:0 0.5rem 0.5rem rgb(255, 96, 4);
+    text-align:center;
+    transition:1s;
+}
+
+.Name-da:hover{
+    background-color:rgb(235, 51, 51);
+    transition:1s;
+}
+
+.Name-a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    transition:0.5s;
+}
+
+.Name-h1{
+    background-color:orange;
+    width:150px;
+    text-align:center;
+    border:3px solid black;
+    border-radius:15px;
+    transition:0.5s;
+}
+
+.Name-h1:hover{
+    letter-spacing:2px;
+    background-color:black;
+    transition:0.5s;
+}
+
+.Name-a:hover{
+    color:orange;
+    transition:0.5s;
+    letter-spacing:2px;
+}
+
+.da-img{
+    width:200px;
+    border-radius:300px;
+    border:3px solid rgb(56, 209, 243);
+    transition:0.5s;
+}
+
+.da-menu-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px 50px;
+}
+
+.da-menu{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.da-img:hover{
+    box-shadow:0 0.5rem 0.5rem Blue;
+    transition:0.5s;
+}
+
+@media (max-width:1000px){
+    .Name-da{
+        flex-direction:column;
+        height:100%;
+    }
+
+    .da-menu{
+        flex-direction:column;
+        height:100%;
+    }
+}

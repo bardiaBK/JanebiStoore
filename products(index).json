@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "S23 FE",
+        "price": "23,000,000 تومان",
+        "image": "Phone.png"
+    },
+    {
+        "id": 2,
+        "name": "Galaxy Buds 2",
+        "price": "4,250,000 تومان",
+        "image": "AirPod.png"
+    },
+    {
+        "id": 3,
+        "name": " اداپتور 15 وات",
+        "price": "250.000 تومان",
+        "image": "Adaptor.png"
+    }
+]
