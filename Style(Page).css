@@ -18,7 +18,7 @@
 }
 
 .img-2{
-    width:100px;
+    width:90px;
     border:2px solid rgb(68, 68, 68);
     border-radius:10px;
 }
@@ -150,18 +150,26 @@
     display:none;
 }
 
+.Center-2-phone{
+    display:none;
+}
+
+.left-info-phone{
+    display:none;
+}
+
 .center-info-2{
     display:grid;
     justify-content:center;
     align-items:center;
-    font-size:19px;
+    font-size:15px;
     background-color:white;
     border-radius:15px;
-    border:3px solid black;
-    width:250px;
-    height:430px;
+    border:2px solid black;
+    width:200px;
+    height:350px;
     margin-top:30px;
-    box-shadow:0 0.5rem 0.5rem rgba(41, 41, 41, 0.816);
+    box-shadow:0 0.3rem 0.3rem rgba(41, 41, 41, 0.816);
     text-align:center;
 }
 
@@ -330,14 +338,19 @@
     }
 
     .things-phone{
-        display:grid;
-        justify-content:center;
+        display:flex;
+        justify-content:space-around;
         align-items:center;
-        margin-top:20px;
+        margin-top:5px;
+    }
+    .right-info-phone{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
     }
 
     .right-phone-img{
-        width:240px;
+        width:200px;
         border-radius:15px;
         border:3px solid rgb(2, 212, 240);
         box-shadow:0 0.5rem 0.5rem rgba(41, 41, 41, 0.505);
@@ -349,32 +362,32 @@
         justify-content:center;
         align-items:center;
         background-color:rgb(255, 255, 255);
-        width:250px;
-        height:450px;
+        width:180px;
+        height:280px;
         border-radius:15px;
         color:black;
-        box-shadow:0 0.5rem 0.5rem rgba(41, 41, 41, 0.816);
-        border:3px solid rgb(0, 0, 0);
-        margin-top:50px;
+        box-shadow:0 0.3rem 0.3rem rgba(41, 41, 41, 0.816);
+        border:2px solid rgb(0, 0, 0);
+        margin-top:20px;
     }
 
     .center-phone-h{
         display:flex;
         justify-content:center;
         align-items:center;
-        font-size:25px;
+        font-size:16px;
         color:black;
     }
     
     .nurmics-phone{
-        font-size:20px;
+        font-size:15px;
     }
 
     .left-info-phone{
         display:flex;
         justify-content:space-around;
         align-items:center;
-        margin-top:50px;
+        margin-top:30px;
         background-color:rgb(255, 255, 255);
         border-radius:10px;
         border:3px solid black;
@@ -424,19 +437,42 @@
     }
 
     .img-2-phone{
-        width:80px;
-        border:2px solid black;
+        width:90px;
+        border:2px solid rgb(43, 42, 42);
         border-radius:15px;
+        margin-left:20px;
     }
 
     .img-info-2-phone{
-        display:grid;
-        justify-content:center;
+        display:flex;
+        justify-content:space-around;
         align-items:center;
         margin-top:50px;
     }
 
     .products-all{
         display:none;
+    }
+
+    .Center-2-phone{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:15px;
+    }
+
+    .center-info-2-phone{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    font-size:15px;
+    background-color:white;
+    border-radius:15px;
+    border:2px solid black;
+    width:180px;
+    height:280px;
+    margin-top:20px;
+    box-shadow:0 0.3rem 0.3rem rgba(41, 41, 41, 0.816);
+    text-align:center;
     }
 }
