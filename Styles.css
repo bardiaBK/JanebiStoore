@@ -307,7 +307,7 @@ body{
     color:white;
     height:30px;
     margin-top:5px;
-    font-size:15px;
+    font-size:13px;
 }
 
 .foot-link-href:hover{
@@ -398,6 +398,10 @@ body{
         font-style: normal;
     }
 
+    .welcome-h1{
+        font-size:20px;
+    }
+
     .header-h2{
         display:none;
     }
@@ -407,7 +411,7 @@ body{
     }
 
     .banner-img{
-        width:420px;
+        width:390px;
     }
 
     .foot-link{
