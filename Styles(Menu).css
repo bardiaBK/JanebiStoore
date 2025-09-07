@@ -1,0 +1,59 @@
+.index{
+    font-family: "Lalezar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.starter{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:whitesmoke;
+    border-radius:10px;
+    border-bottom:3px solid black;
+}
+
+.Layout-B{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Layout{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    margin-top:30px;
+    grid-template-columns:repeat(3, 1fr);
+    gap:40px 100px;
+}
+
+.Lay-img{
+    display:grid;
+    justify-content:space-around;
+    align-items:center;
+    width:300px;
+    border-radius:10px;
+    transition:0.2s;
+}
+
+.Lay-img:hover{
+    border-bottom:5px solid rgb(255, 255, 255);
+    transition:0.2s;
+    box-shadow:0 1rem 1rem rgba(0, 0, 0, 0.542);
+}
+
+@media (max-width:1000px){
+    
+.Layout{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+
+.Lay-img{
+    width:150px;
+}
+}

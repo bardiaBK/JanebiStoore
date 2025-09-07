@@ -1,0 +1,166 @@
+.body-Connection{
+    /* background-color:rgb(249, 90, 90); */
+    /* background-color:rgb(232, 230, 230); */
+    background-image:none;
+}
+
+.channels{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:100px;
+}
+
+.icon{
+    width:90px;
+    border-radius:15px;
+}
+
+.instagram-cha{
+    border-radius:10px;
+    border:5px solid rgb(238, 45, 255);
+    background-color:rgb(191, 65, 250);
+    text-align:center;
+    width:250px;
+    height:380px;
+}
+
+.text-channel{
+    border:0px solid white;
+    border-radius:10px;
+    color:rgb(52, 52, 52);
+}
+
+.Fallow-link{
+    background-color:blueviolet;
+    color:white;
+    border:3px solid rgb(178, 96, 255);
+    font-size:25px;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.5s;
+}
+
+.Fallow-link:hover{
+    background-color:white;
+    color:blueviolet;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+.youtube-cha{
+    border-radius:10px;
+    border:5px solid rgb(255, 104, 104);
+    background-color:rgb(255, 14, 14);
+    text-align:center;
+    width:250px;
+    height:320px;
+}
+
+.Subscribe-link{
+    background-color:rgb(206, 32, 2);
+    color:white;
+    border:3px solid rgb(254, 103, 103);
+    font-size:25px;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.5s;
+    margin-top:100px;
+}
+
+.Subscribe-link:hover{
+    background-color:white;
+    color:rgb(206, 32, 2);
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+.Spotify-cha{
+    border-radius:10px;
+    border:5px solid rgb(138, 199, 246);
+    background-color:rgb(43, 125, 247);
+    text-align:center;
+    width:250px;
+    height:380px;
+}
+
+.Fallow-link-Spotify{
+    background-color:rgb(43, 56, 238);
+    color:white;
+    border:3px solid rgb(59, 93, 247);
+    font-size:25px;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.5s;
+    margin-top:100px;
+}
+
+.Fallow-link-Spotify:hover{
+    background-color:white;
+    color:rgb(43, 56, 238);
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+.Soundcloud-cha{
+    border-radius:10px;
+    border:5px solid cyan;
+    background-color:darkcyan;
+    text-align:center;
+    width:250px;
+    height:380px;
+}
+
+.Fallow-link-Soundcloud{
+    background-color:rgb(36, 214, 214);
+    color:white;
+    border:3px solid rgb(135, 255, 255);
+    font-size:25px;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.5s;
+    margin-top:100px;
+}
+
+.Fallow-link-Soundcloud:hover{
+    background-color:white;
+    color:rgb(36, 214, 214);
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+@media (max-width:1000px){
+    .instagram-cha{
+        /* width:100%;
+        height:100%;
+        font-size:14px; */
+        margin-bottom:20px;
+    }
+
+    /* .Fallow-link{
+        font-size:20px;
+    } */
+
+    .Spotify-cha{
+        /* width:100%;
+        height:100%;
+        font-size:12px; */
+        margin-bottom:20px;
+    }
+
+    /* .Fallow-link-Spotify{
+        font-size:20px;
+    } */
+
+    /* .Soundcloud-cha{
+        width:100%;
+        height:100%;
+        font-size:12.5px;
+    } */
+
+    /* .Fallow-link-Soundcloud{
+        font-size:15px;
+    } */
+
+    .channels{
+        display:grid;
+        justify-content:center;
+        align-items:center;
+    }
+}
