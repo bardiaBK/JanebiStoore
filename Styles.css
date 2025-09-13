@@ -1,0 +1,656 @@
+body{
+    font-family: "Lalezar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-img{
+    width:100px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.header-2{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:whitesmoke;
+    border-radius:10px;
+    border-top:3px solid black;
+    margin-top:10px;
+}
+
+.nav-a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    transition:0.2s;
+}
+
+.nav-a:hover{
+    border-bottom:3px solid rgb(0, 255, 242);
+    transition:0.2s;
+}
+
+.banner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+}
+
+.banner-img{
+    border-radius:10px;
+    width:1100px;
+    /* border:3px solid rgb(0, 0, 0); */
+}
+
+.welcome{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:15px;
+    border-radius:10px;
+    background-color:whitesmoke;
+    border-bottom:3px solid black;
+}
+
+.welcome-h1{
+    height:20px;
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#countdown{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin:1rem;
+    font-size:25px;
+    /* width:100vh; */
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.timer{
+    border:3px solid rgb(255, 255, 255);
+    width:50px;
+    background-color:rgb(6, 238, 230);
+    color:rgb(0, 0, 0);
+    border-radius:15px;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+.products-all{
+    display:flex;
+    position:relative;
+    margin:0 auto;
+    overflow:auto;
+    scroll-snap-type:x mandatory;
+    scroll-behavior:smooth;
+    background-color:rgb(23, 155, 231);
+    border-radius:20px;
+    height:310px;
+    margin-bottom:40px;
+    width:1550px;
+    border:3px solid aqua;
+}
+
+
+.Pro-item{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    animation:scroll 100s linear infinite;
+}
+
+.Pro-item:hover{
+    animation-play-state:paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform:translateX(0);
+    }
+    100% {
+        transform:translateX(calc(-250px * 9));
+    }
+}
+
+.Pro-Text{
+    background-color:white;
+    display:grid;
+    justify-content:center;
+    width:150px;
+    text-align:center;
+    border-radius:15px;
+    margin-left:25px;
+    box-shadow:0 0.3rem 0.3rem rgba(41, 41, 41, 0.542);
+    height:275px;
+}
+
+#Pro-Text-p{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Pro-Text-p{
+    display:grid;
+    justify-content:left;
+    align-items:center;
+    font-size:13px;
+    color:rgb(0, 0, 0);
+}
+
+.Pro-img{
+    width:100px;
+    border-radius:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:10px;
+    box-shadow:0 0.5rem 0.5rem rgb(41, 41, 41);
+}
+
+.per-btn{
+    border:none;
+    background-color:rgba(20, 239, 255, 0);
+    border-radius:5px;
+    text-align:center;
+    width:35px;
+    border-radius:15px;
+}
+
+.nxt-btn{
+    border:none;
+    background-color:rgba(20, 239, 255, 0);
+    border-radius:5px;
+    text-align:center;
+    width:35px;
+    border-radius:15px;
+}
+
+.Text-pro-h1{
+    background-color:black;
+    color:white;
+    width:200px;
+    margin-left:33px;
+    border-radius:15px;
+    border:3px dashed white;
+    transition:0.5s;
+}
+
+.Text-pro-h1:hover{
+    background-color:white;
+    color:black;
+    border:3px dashed black;
+    transition:0.5s;
+}
+
+.Text-Before{
+    background-color:rgb(251, 251, 251);
+    margin-left:10px;
+    border-radius:15px;
+    color:rgb(0, 0, 0);
+    border:3px dashed rgb(0, 0, 0);
+}
+
+.Text-Before-p{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    width:120px;
+    font-size:15px;
+    height:15px;
+}
+
+.Pro-btn-a{
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+}
+
+.Pro-btn-a:hover{
+    color:white;
+    transition:0.5s;
+}
+
+.Pro-btn{
+    font-size:15px;
+    height:30px;
+    width:100px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border:3px solid rgb(40, 40, 40);
+    border-radius:13px;
+    background-color:rgb(250, 253, 255);
+    transition:0.5s;
+    margin-bottom:10px;
+}
+
+.Pro-btn:hover{
+    background-color:black;
+    border:3px solid white;
+    transition:0.5s;
+}
+
+.Pro-Text-p span{
+    display:flex;
+    justify-content:center;
+    font-size:16px;
+    background-color:rgb(0, 98, 255);
+    border-radius:20px;
+    color:white;
+    border:2px solid black;
+}
+
+.footer{
+    background-color:rgb(25, 56, 134);
+    border:4px solid rgb(0, 0, 0);
+    border-radius:15px;
+    margin-top:50px;
+}
+
+.foot-logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:5px;
+}
+
+.foot-logo img{
+    width:90px;
+    border:4px solid rgb(255, 255, 255);
+    border-radius:10px;
+}
+
+.foot-link{
+    display:flex;
+    justify-content:center;
+}
+
+.foot-link-h1{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:10vw;
+    font-size:25px;
+}
+
+.foot-link-href{
+    text-decoration:none;
+    color:rgb(59, 59, 59);
+    color:white;
+    transition:0.5s;
+}
+
+.copyright{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+
+.copyright-p{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(38, 37, 37);
+    width:270px;
+    border:3px solid black;
+    border-radius:20px;
+    transition:0.5s;
+    color:white;
+    height:30px;
+    margin-top:5px;
+    font-size:13px;
+}
+
+.foot-link-href:hover{
+    letter-spacing:1px;
+    color:rgb(0, 255, 255);
+    transition:0.5;
+}
+
+.phonenumber{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+}
+
+.phone-p{
+    font-size:22px;
+    background-color:rgb(38, 37, 37);
+    border:3px solid black;
+    border-radius:15px;
+    transition:0.5s;
+    color:white;
+}
+
+.instagram{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:25px;
+    margin-top:10px;
+}
+
+.instagram-link{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:rgb(203, 14, 203);
+    transition:0.5s;
+}
+
+.telegram-link{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:rgb(15, 159, 226);
+    transition:0.5s;
+}
+
+.telegram-link:hover{
+    transition:0.5s;
+    letter-spacing:3px;
+    color:rgb(0, 176, 182);
+}
+
+.instagram-link:hover{
+    transition:0.5s;
+    letter-spacing:3px;
+    color:pink;
+}
+
+.off-screen-menu{
+    display:none;
+}
+
+nav{
+    display:none;
+}
+
+.More-Sales-2{
+    display:none;
+}
+
+.slider-nav a:hover{
+    opacity:1;
+}
+
+.slider-nav a:hover{
+    opacity:1;
+}
+
+::-webkit-scrollbar{
+    width:15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:#c7c6c6;
+}
+
+::-webkit-scrollbar-thumb{
+    background:rgb(255, 255, 255);
+    border-radius:10px;
+}
+
+@media (max-width:1000px){
+
+    body{
+        font-family: "Lalezar", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .welcome-h1{
+        font-size:20px;
+    }
+
+    .header-h2{
+        display:none;
+    }
+
+    .none{
+        display:none;
+    }
+
+    .header{
+        border:2px solid black;
+        border-radius:30px;
+        width:100%;
+        height:100px;
+    }
+
+    .header-img{
+        width:90px;
+        align-items:center;
+        display:flex;
+        justify-content:center;
+    }
+
+    .banner-img{
+        width:390px;
+    }
+
+    .foot-link{
+        flex-direction:column;
+        display:grid;
+    }
+
+    .foot-logo{
+        margin-left:20px;
+    }
+
+    .Text-pro-h1{
+        width:220px;
+    }
+
+    .Pro-Text{
+        width:150px;
+        height:310px;
+    }
+
+    .Pro-img{
+        width:116px;
+        margin-left:10px;
+    }
+
+    .phonenumber{
+        display:none;
+    }
+
+    .Text-Before-p{
+        width:100px;
+        font-size:14px;
+    }
+
+    .timer{
+        font-size:20px;
+        width:40px;
+    }
+
+    .up{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        /* display:block; */
+        /* margin-left:130px; */
+    }
+
+    .Name-Pro2{
+        flex-direction:column;
+    }
+
+    .Middle-page{
+        height:170px;
+    }
+
+    .text{
+        font-size:20px;
+    }
+
+    .timer-2{
+        font-size:13px;
+    }
+
+    .products-all{
+        height:330px;
+        width:410px;
+    }
+
+    .slider{
+        border-radius:15px;
+    }
+
+    .off-screen-menu{
+        background-color:rgb(23, 149, 252);
+        height:485px;
+        width:300px;
+        /* max-width:350px; */
+        color:white;
+        position:fixed;
+        top:0;
+        right:-350px;
+        display:flex;
+        /* flex-direction:column; */
+        justify-content:center;
+        text-align:center;
+        align-items:center;
+        font-size:2rem;
+        transition:.3s ease;
+        border-radius:5px;
+    }
+
+    .off-screen-menu.active{
+        right:0;
+    }
+
+    nav{
+        padding:1rem;
+        display:flex;
+        /* background-color:rgb(54, 54, 54); */
+        border-radius:10px;
+    }
+
+    .ham-menu{
+        height:26px;
+        width:26px;
+        margin-left:auto;
+        position:relative;
+    }
+
+    .ham-menu span{
+        height:5px;
+        width:100%;
+        background-color:rgb(0, 0, 0);
+        border-radius:25px;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        transition:0.3s ease;
+    }
+
+    .ham-menu span:nth-child(1){
+        top:25%;
+    }
+
+    .ham-menu span:nth-child(3){
+        top:75%;
+    }
+
+    .ham-menu.active span:nth-child(1){
+        top:50%;
+        transform:translate(-50%, -50%) rotate(45deg);
+    }
+
+    .ham-menu.active span:nth-child(2){
+        opacity:0;
+    }
+
+    .ham-menu.active span:nth-child(3){
+        top:50%;
+        transform:translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .a-ham{
+        text-decoration:none;
+        color:white;
+    }
+
+    .header-2{
+        display:none;
+    }
+
+    .More-Sales-2{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        margin-top:15px;
+    }
+
+    .More-Sales{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        margin-right:13px;
+    }
+
+    .More{
+    background-color:white;
+    display:grid;
+    justify-content:center;
+    text-align:center;
+    width:100%;
+    border-radius:15px;
+    margin-left:25px;
+    box-shadow:0 0.3rem 0.3rem rgba(41, 41, 41, 0.542);
+    height:170px;
+    }
+
+    .More-Img{
+        width:100px;
+        border-radius:15px;
+        box-shadow:0 0.3rem 0.3rem rgb(41, 41, 41);
+    }
+
+    .More-btn-a{
+    text-decoration:none;
+    color:black;
+    transition:0.5s;
+    }
+
+.More-btn-a:hover{
+    color:white;
+    transition:0.5s;
+}
+
+.More-btn{
+    font-size:15px;
+    height:30px;
+    width:70px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border:3px solid rgb(40, 40, 40);
+    border-radius:13px;
+    background-color:rgb(250, 253, 255);
+    transition:0.5s;
+}
+
+    .More-btn:hover{
+        background-color:black;
+        border:3px solid white;
+        transition:0.5s;
+    }
+}

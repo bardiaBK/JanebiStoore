@@ -1,0 +1,486 @@
+.Info-body{
+    background-image:none;
+    background-color:rgb(255, 255, 255);
+}
+
+.right-img{
+    width:310px;
+    border-radius:15px;
+    border:3px solid rgb(255, 255, 255);
+    box-shadow:0 0.5rem 0.5rem rgba(41, 41, 41, 0.505);
+    margin-top:40px;
+}
+
+.img-info{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:15px;
+}
+
+.img-2{
+    width:90px;
+    border:2px solid rgb(68, 68, 68);
+    border-radius:10px;
+}
+
+.things{
+    display:flex;
+    justify-content:space-between;
+    margin-top:70px;
+}
+
+.img-info-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* .right-info{
+    background:linear-gradient(#1fd3d3, #000000e7);
+    width:350px;
+    height:550px;
+    border-radius:15px;
+    box-shadow:0 0.5rem 0.5rem rgba(41, 41, 41, 0.816);
+    color:white;
+    border:3px solid cyan;
+} */
+
+.right-info{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+
+.left-info{
+    background-color:rgb(255, 255, 255);
+    width:250px;
+    height:330px;
+    border-radius:15px;
+    box-shadow:0 0.5rem 0.5rem rgba(41, 41, 41, 0.816);
+    margin-top:80px;
+    border:3px solid rgb(0, 0, 0);
+    margin-left:10px;
+}
+
+.left-p{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    color:rgb(0, 0, 0);
+}
+
+#left-p{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+}
+
+.info-btn-{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.info-btn{
+    font-size:24px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(15, 170, 162);
+    padding:5px 10px;
+    border-radius:20px;
+    border:none;
+    cursor:pointer;
+    border:3px solid rgb(0, 247, 0);
+    transition:0.6s;
+}
+
+.info-btn-a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+}
+
+.info-btn:hover{
+    background-color:rgb(0, 197, 241);
+    transition:0.6s;
+}
+
+.info{
+    /* display:flex;
+    justify-content:right; */
+    margin-top:50px;
+    align-items:center;
+    font-size:12px;
+}
+
+.center-info{
+    background-color:rgb(255, 255, 255);
+    /* width:350px;
+    height:550px; */
+    border-radius:15px;
+    color:rgb(0, 0, 0);
+    box-shadow:0 0.5rem 0.5rem rgba(41, 41, 41, 0.816);
+    border:3px solid rgb(0, 0, 0);
+    margin-bottom:80px;
+}
+
+.center-h{
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+    font-size:40px;
+    color:rgb(255, 255, 255);
+    margin-right:70px;
+}
+
+.nurmics{
+    display:flex;
+    justify-content:space-around;
+}
+
+/* .nurmics{
+    font-size:15px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+} */
+
+.things-phone{
+    display:none;
+}
+
+.Center-2-phone{
+    display:none;
+}
+
+.left-info-phone{
+    display:none;
+}
+
+.center-info-2{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    font-size:15px;
+    background-color:white;
+    border-radius:15px;
+    border:2px solid black;
+    width:200px;
+    height:350px;
+    margin-top:30px;
+    box-shadow:0 0.3rem 0.3rem rgba(41, 41, 41, 0.816);
+    text-align:center;
+}
+
+.nurmics-2{
+    display:flex;
+    justify-content:space-around;
+}
+
+.Mojoodi{
+    width:300px;
+    border-radius:5px;
+}
+
+.Mojoodi-ipsa-qab-2{
+    width:79px;
+    border-radius:5px;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.share-btn{
+    position:relative;
+    border:none;
+    background-color:rgb(15, 229, 245);
+    color:rgb(15, 15, 15);
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    font-size:20px;
+    cursor:pointer;
+    z-index:2;
+}
+
+.share-option{
+    position:absolute;
+    bottom:17%;
+    left:12%;
+    width:250px;
+    height:250px;
+    transform-origin:bottom left;
+    transform:scale(0);
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
+    background-color:rgba(29, 29, 29, 0.925);
+    color:white;
+    padding:20px;
+    font-family:'roboto';
+    transition:0.5s;
+    transition-delay:0.5s;
+}
+
+.share-option.active{
+    transform:scale(1);
+    transition-delay:0s;
+}
+
+.title{
+    opacity:0;
+    transition:0.5s;
+    transition-delay:0s;
+    font-size:20px;
+    text-transform:capitalize;
+    border-bottom:1px solid white;
+    width:fit-content;
+    padding:0 20px;
+}
+
+.social-media{
+    opacity:0;
+    transition:0.5s;
+    transition-delay:0s;
+    width:250px;
+    height:120px;
+    display:flex;
+    align-items:center;
+    flex-wrap:warp;
+    margin:10px 0;
+}
+
+.social-media-btn{
+    border:none;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:black;
+    color:white;
+    line-height:50px;
+    font-size:25px;
+    cursor:pointer;
+    margin:0 5px;
+    text-align:center;
+}
+
+.social-media-btn:nth-child(1){
+    background-color:rgb(18, 218, 18);
+}
+
+.social-media-btn:nth-child(2){
+    background-color:rgb(236, 9, 199);
+}
+
+.social-media-btn:nth-child(3){
+    background-color:rgb(12, 192, 236);
+}
+
+.link-container{
+    opacity:0;
+    transition:0.5s;
+    transition-delay:0s;
+    position:relative;
+    height:40px;
+    display:flex;
+    align-items:center;
+    border-radius:40px;
+    background-color:white;
+    overflow:hidden;
+    padding:0 10px;
+}
+
+.link{
+    width:80%;
+    height:100%;
+    line-height:40px;
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.copy-btn{
+    position:absolute;
+    right:0;
+    cursor:pointer;
+    background-color:black;
+    color:white;
+    border:none;
+    height:100%;
+    width:30%;
+    text-transform:capitalize;
+    font-size:16px;
+}
+
+.share-option.active .title,
+.share-option.active .social-media,
+.share-option.active .link-container{
+    opacity:1;
+    transition:0.5s;
+    transition:0.5s;
+}
+
+.sharethis-inline-share-buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:15px;
+}
+
+@media (max-width:1000px){
+    .things{
+        display:none;
+    }
+
+    .info{
+        display:none;
+    }
+
+    .things-phone{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        margin-top:5px;
+    }
+    .right-info-phone{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+    }
+
+    .right-phone-img{
+        width:200px;
+        border-radius:15px;
+        border:3px solid rgb(2, 212, 240);
+        box-shadow:0 0.5rem 0.5rem rgba(41, 41, 41, 0.505);
+        margin-top:15px;
+    }
+
+    .center-info-phone{
+        display:grid;
+        justify-content:center;
+        align-items:center;
+        background-color:rgb(255, 255, 255);
+        width:180px;
+        height:280px;
+        border-radius:15px;
+        color:black;
+        box-shadow:0 0.3rem 0.3rem rgba(41, 41, 41, 0.816);
+        border:2px solid rgb(0, 0, 0);
+        margin-top:20px;
+    }
+
+    .center-phone-h{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:16px;
+        color:black;
+    }
+    
+    .nurmics-phone{
+        font-size:15px;
+    }
+
+    .left-info-phone{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        margin-top:30px;
+        background-color:rgb(255, 255, 255);
+        border-radius:10px;
+        border:3px solid black;
+        margin-bottom:20px;
+    }
+
+    .left-phone-p{
+        font-size:20px;
+    }
+
+    .del{
+        font-size:15px;
+    }
+
+    #OFF2{
+        background-color:rgb(0, 98, 255);
+        border-radius:15px;
+        width:50px;
+        text-align:center;
+        color:white;
+        border:2px solid black;
+        font-size:15px;
+    }
+
+    .info-phone-btn{
+        font-size:18px;
+        font-family: "Lalezar", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        background-color:rgb(4, 255, 255);
+        padding:5px 10px;
+        border-radius:20px;
+        border:none;
+        cursor:pointer;
+        border:3px solid rgb(0, 51, 255);
+    }
+
+    .info-phone-btn-a{
+        text-decoration:none;
+        color:rgb(45, 13, 255);
+    }
+
+    .img-info-phone{
+        display:flex;
+        justify-content:space-around;
+        margin-top:10px;
+    }
+
+    .img-2-phone{
+        width:90px;
+        border:2px solid rgb(43, 42, 42);
+        border-radius:15px;
+        margin-left:20px;
+    }
+
+    .img-info-2-phone{
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        margin-top:50px;
+    }
+
+    .products-all{
+        display:none;
+    }
+
+    .Center-2-phone{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:15px;
+    }
+
+    .center-info-2-phone{
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    font-size:14px;
+    background-color:white;
+    border-radius:15px;
+    border:2px solid black;
+    width:180px;
+    height:280px;
+    margin-top:20px;
+    box-shadow:0 0.3rem 0.3rem rgba(41, 41, 41, 0.816);
+    text-align:center;
+    }
+    
+    .sharethis-inline-share-buttons{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-left:10px;
+    }
+}
